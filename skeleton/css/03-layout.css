@@ -15,12 +15,14 @@
   background: #fff;
   min-height: 240px;
   width: 659px;
-  border-left: 1px solid #ccc;
 }
 
 .content-sidebar {
   float: left;
   min-height: 240px;
   background: #fff;
-  width: 240px;
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  color: #000;
 }
