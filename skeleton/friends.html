@@ -21,22 +21,44 @@
 </head>
 <body>
 
-  <!-- YOUR HTML HERE -->
   <header class="header">
     <nav class="header-nav group">
       <h1 class="header-nav-logo"><a href="#">App Academy Friends</a></h1>
         <ul class="header-nav-list group">
-          <li><a href="#">Notifications</a></li>
+          <li class="notifications">
+            <a href="#">Notifications <p class="notif-badge">3</p></a>
+            <ul class="header-nav-notif">
+              <li><a href="#">Constance likes your photo.</a></li>
+              <li><a href="#">Tommy left you a comment.</a></li>
+              <li><a href="#">Jonathon is now following you.</a></li>
+            </ul>
+          </li>
+
           <li><a href="#">Profile</a></li>
           <li><a href="#">Settings</a></li>
         </ul>
     </nav>
   </header>
+  <content class="content group">
+    <section class="content-header">
+      <h2 class="content-title">Sennacy The Great</h2>
+      <button>Add Friend</button>
+    </section>
+    <section class="content-main"></section>
+    <section class="content-sidebar"></section>
+  </content>
 
-  <script src="../shared/js/jquery.js"></script>
-  <script>
 
-  </script>
-
+  <footer class="group">
+    <small>© 2014 App Academy. All rights reserved.</small>
+    <ul class="footer-links group">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+  </footer>
 </body>
+
+
 </html>
